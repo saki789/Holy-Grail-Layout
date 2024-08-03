@@ -1,11 +1,8 @@
 import React from "react";
+import FullScreenLayout from "./component/HolyGrailLayout";
 
 const App = () => {
-  return (
-    <div>
-      <h1>App</h1>
-    </div>
-  );
+  return <FullScreenLayout />;
 };
 
 export default App;
